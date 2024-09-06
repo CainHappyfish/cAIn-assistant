@@ -1,0 +1,22 @@
+:root {
+    /* background & bars */
+    --background-color: rgba(248, 249, 250, 0.25);
+    --bar-background-color: rgb(256, 256, 256);
+    --bar-line-color: rgb(221, 234, 255);
+
+    /* text */
+    --textarea-border-color: rgb(142, 181, 250);
+
+    /* chats */
+    --chats-background-color: #d8e7f5;
+    --chat-background-color: #85d5fd;
+
+    /* buttons */
+
+
+    /* linear-gradient color*/
+    --linear-gradient-1: #9494ff;
+    --linear-gradient-2: #f88787;
+
+
+}

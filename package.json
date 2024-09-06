@@ -1,0 +1,36 @@
+{
+  "name": "c4instant",
+  "version": "1.0.0",
+  "description": "A simple AI-chat assistant.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CainHappyfish/cAIn-assistant.git"
+  },
+  "keywords": [
+    "AI-chat"
+  ],
+  "author": "C4iN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CainHappyfish/cAIn-assistant/issues"
+  },
+  "homepage": "https://github.com/CainHappyfish/cAIn-assistant#readme",
+  "dependencies": {
+    "electron": "^32.0.2"
+  },
+  "devDependencies": {
+    "commitlint": "^19.4.1",
+    "cz": "^1.8.2",
+    "cz-customizable": "^7.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
