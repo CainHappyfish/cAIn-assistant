@@ -5,7 +5,6 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -32,5 +31,6 @@
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
-  }
+  },
+  "__npminstall_done": false
 }
