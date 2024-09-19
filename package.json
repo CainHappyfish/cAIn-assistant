@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/CainHappyfish/cAIn-assistant#readme",
   "dependencies": {
-    "electron": "^32.0.2"
+    "electron": "^32.0.2",
+    "openai": "^4.58.2",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
     "commitlint": "^19.4.1",

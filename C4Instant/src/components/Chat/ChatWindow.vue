@@ -1,17 +1,17 @@
 <script setup lang="ts">
 
-import ChatMessage from "./global/ChatMessage.vue";
-import {ref} from "vue";
+// import ChatMessage from "./global/ChatMessage.vue";
+// import {ref} from "vue";
 
 
-const Welcome = ref("Welcome!")
-const Thanks = ref("Thanks!")
+// const Welcome = ref("Welcome!")
+// const Thanks = ref("Thanks!")
 </script>
 
 <template>
   <div class="chat-window-container">
-    <ChatMessage :message="Welcome"/>
-    <ChatMessage :message="Thanks" :isUser="true"/>
+<!--    <ChatMessage :message="Welcome"/>-->
+<!--    <ChatMessage :message="Thanks" :isUser="true"/>-->
   </div>
 </template>
 

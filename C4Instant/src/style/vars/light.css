@@ -6,6 +6,8 @@
 
     /* text */
     --textarea-border-color: rgb(142, 181, 250);
+    --text-color: black;
+    --welcome-text-color: #32637a;
 
     /* chats */
     --chats-background-color: #d8e7f5;

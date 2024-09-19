@@ -67,7 +67,7 @@ import SendButton from "../SendButton.vue";
   line-height: 50px;
   padding: 0;
 
-  font-size: 3em;
+  font-size: 2em;
 }
 
 

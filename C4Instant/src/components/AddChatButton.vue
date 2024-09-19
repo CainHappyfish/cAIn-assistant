@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div class="add-chat-button">
+  <router-link to="/chat" class="add-chat-button">
     <p> + New Chat</p>
-  </div>
+  </router-link>
 </template>
 
 <style scoped>
@@ -17,7 +17,7 @@
 
   border-radius: 10px;
 
-
+  text-decoration: none;
   background: linear-gradient(30deg, var(--linear-gradient-1), var(--linear-gradient-2));
 
   transition: all 0.5s ease;

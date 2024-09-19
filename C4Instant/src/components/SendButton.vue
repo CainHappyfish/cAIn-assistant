@@ -12,5 +12,11 @@ import SendLogo from '../assets/send.svg'
 
   width: 40px;
   cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.send-logo:hover {
+  width: 45px;
 }
 </style>

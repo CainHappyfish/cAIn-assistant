@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import TopBar from "../components/TopBar.vue";
-import SideBar from "../components/SideBar.vue";
-import ChatPanel from "../components/Chat/ChatPanel.vue";
+import TopBar from "../TopBar.vue";
+import SideBar from "../SideBar.vue";
+import ChatPanel from "../Chat/ChatPanel.vue";
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import ChatPanel from "../components/Chat/ChatPanel.vue";
     <TopBar />
     <div class="home-body-container">
       <SideBar />
-      <ChatPanel />
+      <router-view />
     </div>
 
   </div>

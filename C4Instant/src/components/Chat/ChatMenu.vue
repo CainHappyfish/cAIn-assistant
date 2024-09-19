@@ -10,10 +10,10 @@ import QuitLogo from "../../assets/quit.svg"
       <img :src="CleanLogo" alt="clean" class="clean-button"/>
       <p>Clean all chats</p>
     </div>
-    <div class="chat-menu-option">
+    <router-link to="/settings" class="chat-menu-option">
       <img :src="SetLogo" alt="settings" class="setting-button"/>
       <p>Settings</p>
-    </div>
+    </router-link>
     <div class="chat-menu-option">
       <img :src="QuitLogo" alt="quit" class="quit-button"/>
       <p>Quit</p>
@@ -38,6 +38,10 @@ import QuitLogo from "../../assets/quit.svg"
 }
 
 .chat-menu-option {
+  color: var(--text-color);
+
+  text-decoration: none;
+
   display: flex;
 
   font-family: "Microsoft YaHei UI Light", sans-serif;
