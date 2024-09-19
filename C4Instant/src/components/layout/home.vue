@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import TopBar from "../TopBar.vue";
 import SideBar from "../SideBar.vue";
-import ChatPanel from "../Chat/ChatPanel.vue";
+
 </script>
 
 <template>
